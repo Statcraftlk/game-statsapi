@@ -1,0 +1,15 @@
+{
+  "name": "game-statsapi",
+  "version": "1.0.0",
+  "description": "This project aims to simplify the process of gathering data from popular games' APIs to facilitate detailed analysis of trending games. By centralizing data collection from various sources, it provides a convenient way to access and analyze game-related information for research, marketing, or any other purposes.",
+  "main": "download-script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7"
+  }
+}
