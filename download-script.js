@@ -45,6 +45,6 @@ async function downloadImages(baseUrl, outputFolder) {
 }
 
 const baseUrl = ""; // Base URL (e.g. https://example.com/images)
-const outputFolder = "./brawl-stars/brawler-images"; // Output folder to save the images
+const outputFolder = ""; // Output folder to save the images (e.g. ./images)
 
 downloadImages(baseUrl, outputFolder); // Call the function to download the images
