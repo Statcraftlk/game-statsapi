@@ -31,7 +31,7 @@ async function downloadImages(baseUrl, outputFolder) {
         `Downloaded ${brawler.name.charAt(0).toUpperCase()}${brawler.name
           .slice(1)
           .toLowerCase()}.png`
-      );
+      ); // Log the success
     } catch (error) {
       console.error(
         `Failed to download ${brawler.name
@@ -39,12 +39,12 @@ async function downloadImages(baseUrl, outputFolder) {
           .toUpperCase()}${brawler.name.slice(1).toLowerCase()}.png: ${
           error.message
         }`
-      );
+      ); // Log the error
     }
   }
 }
 
-const baseUrl = ""; // Base URL
+const baseUrl = ""; // Base URL (e.g. https://example.com/images)
 const outputFolder = "./brawl-stars/brawler-images"; // Output folder to save the images
 
-downloadImages(baseUrl, outputFolder);
+downloadImages(baseUrl, outputFolder); // Call the function to download the images
