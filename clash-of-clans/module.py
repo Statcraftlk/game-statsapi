@@ -19,7 +19,5 @@ with open("my_key_coc.txt") as file:
     data = json.loads(response)
     data_json = json.dumps(data)
 
-print(data_json)
-
 with open("coc_league_data.json", "w") as json_file:
     json.dump(data, json_file, indent=4)
